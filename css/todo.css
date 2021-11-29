@@ -2,8 +2,13 @@
     margin: 0px;
     padding: 0px;
 }
+
+body{
+    background-image: url(../pics/bg.jpeg);
+}
+
 .tablebg{
-    background-color:rgb(116, 245, 11);
+    background-color:rgba(248, 247, 252, 0.596);
     overflow-y: scroll;
     height: 650px;
     width: 40%;
@@ -17,3 +22,11 @@
     text-decoration: line-through;
     /* background-color: cornflowerblue; */
   }
+
+#head1{
+      border: solid 1;
+      background-color: rgb(187, 236, 8);
+      padding: 5px;
+  }
+
+ 
