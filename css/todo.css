@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.tablebg{
+    background-color:rgb(116, 245, 11);
+    overflow-y: scroll;
+    height: 650px;
+    width: 40%;
+    font-weight:700;
+    margin-left:53%;
+   
+}
+
+.strikeout {
+    color:rgb(247, 9, 48);
+    text-decoration: line-through;
+    /* background-color: cornflowerblue; */
+  }

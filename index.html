@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <title>LOGIN</title>
     <!----css custom file link-->
-    <link rel="stylesheet" href="./STYLE.css">
+    <link rel="stylesheet" href="./css/STYLE.css">
     <!---Fontawesome CDN link----->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <script src="./todolist.js"></script>
+    <script defer src="./js.js"></script>
 </head>
 <body>
 
@@ -25,7 +27,8 @@
             </div>
             <div class="div">
               <!-- <h5>Username</h5> -->
-              <input type="text" class="input" placeholder="Username">
+              <input type="text" class="input" placeholder="Username" id="username">
+              <small id="uname" style="color:lightsteelblue;"></small>
             </div>
           </div>
           <div class="input-div pass">
@@ -34,11 +37,13 @@
             </div>
             <div class="div">
               <!-- <h5>Password</h5> -->
-              <input type="password" class="input" placeholder="Password">
+              <input type="password" class="input" placeholder="Password" id="password">
+              <small id="psw" style="color:lightsteelblue;"></small>
             </div>
           </div>
           <a href="#">Forgot Password?</a>
-          <input type="submit" class="btn" value="Login">
+          <!-- <input type="submit" class="btn" value="Login" id="button1"> -->
+          <button type="button" id="button1" class="btn btn-primary btn-block" >Login</button>
         </form>
       </div>
     </div>
